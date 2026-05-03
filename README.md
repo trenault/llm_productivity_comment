@@ -1,6 +1,6 @@
 # Replication Package
 
-**"Detecting Adoption from Output: Why First-Detection Event Studies Can Mislead — A Comment on Kusumegi et al. (2025)"**
+**"Detecting Adoption from Output: Why First-Detection Event Studies Can Mislead — A Comment on Kusumegi et al. (2026)"**
 
 ---
 
