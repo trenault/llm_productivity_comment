@@ -208,8 +208,7 @@ twoway                                                                   ///
                  4 "IID productivity + random timing")                   ///
            position(12) rows(1) size(small))
 
-graph export "../science/figures/Fig2_Simulation_Stacked_100K_1000.pdf", replace
-di as result _n "Figure saved to ../science/figures/Fig2_Simulation_Stacked_100K_1000.pdf"
+graph export "Fig2_Simulation_Stacked_100K_1000.pdf", replace
 
 
 * ─────────────────────────────────────────────────────────────────────────────
