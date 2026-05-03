@@ -8,7 +8,7 @@ Thomas Renault (Université Paris-Saclay), Antonin Bergeaud (HEC Paris), Clémen
 
 ## Overview
 
-This package replicates all figures in the comment paper. The paper argues that the treatment-timing rule in Kusumegi et al. (2025) — dating LLM adoption as the first month in which at least one abstract exceeds an LLM-detection threshold — mechanically inflates post-treatment event-study coefficients because detection probability is increasing in monthly output. We demonstrate this via simulation (Figure 2) and placebo exercises on the original arXiv data (Figure 3).
+This package replicates all figures in the comment paper. The paper argues that the treatment-timing rule in Kusumegi et al. (2025) — dating LLM adoption as the first month in which at least one abstract exceeds an LLM-detection threshold — mechanically inflates post-treatment event-study coefficients. We demonstrate this via simulation (Figure 2) and placebo exercises on the original arXiv data (Figure 3).
 
 ---
 
@@ -75,4 +75,4 @@ Parameters: 100,000 simulated authors, 1,000 replications.
 1. Download `arxiv-metadata-oai-snapshot.json` from Kaggle and place it in this directory.
 2. Download `production_arxiv.csv` from figshare and place it in this directory.
 3. Run `Stacked_Dataset.py` to generate the stacked CSVs.
-4. Open Stata, set the working directory, and run `Fig1.do`, `Fig2.do`, `Fig3.do` in order.
+4. Open Stata and run `Fig1.do`, `Fig2.do`, `Fig3.do`.
