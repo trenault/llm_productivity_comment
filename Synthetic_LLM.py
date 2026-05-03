@@ -17,9 +17,9 @@ MONTHS          = pd.date_range("2022-01", "2022-11", freq="MS", tz="UTC")
 N_PER_MONTH     = 2000
 AI_CATEGORIES   = {"cs.CV", "cs.LG", "cs.AI", "cs.IR", "cs.CL"}
 RANDOM_SEED     = 42
-BATCH_JSONL     = "data/batch_input.jsonl"
-BATCH_ID_FILE   = "data/batch_id.txt"
-OUTPUT_CSV      = "data/synthetic_llm.csv"
+BATCH_JSONL     = "batch_input.jsonl"
+BATCH_ID_FILE   = "batch_id.txt"
+OUTPUT_CSV      = "synthetic_llm.csv"
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 
@@ -31,7 +31,7 @@ def load_sample() -> pd.DataFrame:
     print("Scanning arXiv metadata...")
     buckets = {m: [] for m in MONTHS}
 
-    with open("data/arxiv-metadata-oai-snapshot.json", "r", encoding="utf-8") as f:
+    with open("arxiv-metadata-oai-snapshot.json", "r", encoding="utf-8") as f:
         for i, line in enumerate(f):
             record = json.loads(line.strip())
             versions = record.get("versions")
