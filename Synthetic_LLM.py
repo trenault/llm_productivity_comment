@@ -1,6 +1,3 @@
-import os
-os.chdir("C:/Users/thoma/Dropbox/artllm/science_replication/")
-
 import re
 import json
 import time
