@@ -41,9 +41,7 @@ Builds all stacked DiD datasets used in Figures 1 and 3 from the raw arXiv metad
 - **Output files** :
   - `stacked_replication.csv` — main replication of Kusumegi et al.
   - `stacked_placebo_random{10,20,30}.csv` — random flag placebos (detection prob. 10%, 20%, 30%)
-  - `stacked_placebo_keyword.csv` — neutral keyword placebo ("data")
-  - `stacked_placebo_keyword_paper.csv` — neutral keyword placebo ("paper")
-  - `stacked_placebo_keyword_find.csv` — neutral keyword placebo ("find")
+  - `stacked_placebo_keyword{data,paper,find}.csv` — neutral keyword placebos ("data", "paper", "find")
   - `stacked_placebo_prechatgpt.csv` — pre-ChatGPT window placebo (before December 2022)
 
 
