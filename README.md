@@ -2,8 +2,6 @@
 
 **"Detecting Adoption from Output: Why First-Detection Event Studies Can Mislead — A Comment on Kusumegi et al. (2025)"**
 
-Thomas Renault (Université Paris-Saclay), Antonin Bergeaud (HEC Paris), Clément Bosquet (Université Paris 1 Panthéon-Sorbonne, CES)
-
 ---
 
 ## Overview
@@ -76,3 +74,19 @@ Parameters: 100,000 simulated authors, 1,000 replications.
 2. Download `production_arxiv.csv` from figshare and place it in this directory.
 3. Run `Stacked_Dataset.py` to generate the stacked CSVs.
 4. Open Stata and run `Fig1.do`, `Fig2.do`, `Fig3.do`.
+
+---
+
+## Citation
+
+If you use this replication package, please cite:
+
+```bibtex
+@article{renault2026comment,
+  author  = {Renault, Thomas and Bergeaud, Antonin and Bosquet, Cl{\'e}ment},
+  title   = {Detecting Adoption from Output: Why First-Detection Event Studies Can Mislead.
+             A Comment on {Kusumegi et al.} (2025)},
+  journal = {Working Paper},
+  year    = {2026},
+}
+```
