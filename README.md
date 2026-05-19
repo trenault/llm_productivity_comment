@@ -1,6 +1,6 @@
 # Replication Package
 
-**"Detecting Adoption from Output: Why First-Detection Event Studies Can Mislead — A Comment on Kusumegi et al. (2025)"**
+**"Comment on Scientific production in the era of large language models - Outcome-Triggered Treatment Timing and Spurious Event-Study Dynamics"**
 
 ---
 
@@ -83,8 +83,7 @@ If you use this replication package, please cite:
 ```bibtex
 @article{renault2026comment,
   author  = {Renault, Thomas and Bergeaud, Antonin and Bosquet, Cl{\'e}ment},
-  title   = {Detecting Adoption from Output: Why First-Detection Event Studies Can Mislead.
-             A Comment on {Kusumegi et al.} (2025)},
+  title   = {Comment on Scientific production in the era of large language models - Outcome-Triggered Treatment Timing and Spurious Event-Study Dynamics},
   journal = {Working Paper},
   year    = {2026},
 }
